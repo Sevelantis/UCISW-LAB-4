@@ -1,6 +1,0 @@
-select figure at 1101 1042 8 -branches -sn=1
-set attr BA|XLXI_12|InstName value D1 -sn=1
-add atwin 1760 592 1776 592 8 InstName -sn=1
-select figure at 1554 1107 8 -branches -sn=1
-select figure at 1116 1069 8 -branches -sn=1
-select figure at 1072 1025 8 -branches -sn=1

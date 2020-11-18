@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : zad1_sch.vhf
--- /___/   /\     Timestamp : 11/18/2020 13:49:11
+-- /___/   /\     Timestamp : 11/18/2020 14:02:17
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -118,7 +118,7 @@ begin
                 B(7 downto 0)=>XLXN_16(7 downto 0),
                 EQ=>XLXN_39);
    
-   XLXI_12 : FD
+   D1 : FD
       port map (C=>CLK,
                 D=>XLXN_32,
                 Q=>XLXN_41);

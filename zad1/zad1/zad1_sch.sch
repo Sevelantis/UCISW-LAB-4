@@ -135,7 +135,7 @@
             </attr>
             <blockpin signalname="XLXN_16(7:0)" name="O" />
         </block>
-        <block symbolname="fd" name="XLXI_12">
+        <block symbolname="fd" name="D1">
             <blockpin signalname="CLK" name="C" />
             <blockpin signalname="XLXN_32" name="D" />
             <blockpin signalname="XLXN_41" name="Q" />
@@ -218,7 +218,9 @@
             <wire x2="2000" y1="784" y2="784" x1="1984" />
             <wire x2="1984" y1="528" y2="528" x1="1968" />
         </branch>
-        <instance x="1584" y="784" name="XLXI_12" orien="R0" />
+        <instance x="1584" y="784" name="D1" orien="R0">
+            <attrtext style="fontsize:28;fontname:Arial" attrname="InstName" x="176" y="-192" type="instance" />
+        </instance>
         <instance x="464" y="1072" name="C2" orien="R0">
             <attrtext style="fontsize:28;fontname:Arial" attrname="InstName" x="176" y="-240" type="instance" />
         </instance>
