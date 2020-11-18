@@ -1,4 +1,4 @@
--- Vhdl test bench created from schematic C:\Users\sfran\Documents\Repo\UCISW-LAB-4\zad2\zad2_sch.sch - Tue Nov 17 19:30:02 2020
+-- Vhdl test bench created from schematic C:\Users\sfran\Documents\Repo\UCISW-LAB-4\zad2\zad2_sch.sch - Tue Nov 17 19:39:11 2020
 --
 -- Notes: 
 -- 1) This testbench template has been automatically generated using types
@@ -24,8 +24,8 @@ ARCHITECTURE behavioral OF zad2_sch_zad2_sch_sch_tb IS
    COMPONENT zad2_sch
    PORT( A0	:	IN	STD_LOGIC; 
           A1	:	IN	STD_LOGIC; 
+          A2	:	IN	STD_LOGIC; 
           A3	:	IN	STD_LOGIC; 
-          A4	:	IN	STD_LOGIC; 
           B0	:	IN	STD_LOGIC; 
           B1	:	IN	STD_LOGIC; 
           B2	:	IN	STD_LOGIC; 
@@ -38,8 +38,8 @@ ARCHITECTURE behavioral OF zad2_sch_zad2_sch_sch_tb IS
 
    SIGNAL A0	:	STD_LOGIC;
    SIGNAL A1	:	STD_LOGIC;
+   SIGNAL A2	:	STD_LOGIC;
    SIGNAL A3	:	STD_LOGIC;
-   SIGNAL A4	:	STD_LOGIC;
    SIGNAL B0	:	STD_LOGIC;
    SIGNAL B1	:	STD_LOGIC;
    SIGNAL B2	:	STD_LOGIC;
@@ -54,8 +54,8 @@ BEGIN
    UUT: zad2_sch PORT MAP(
 		A0 => A0, 
 		A1 => A1, 
+		A2 => A2, 
 		A3 => A3, 
-		A4 => A4, 
 		B0 => B0, 
 		B1 => B1, 
 		B2 => B2, 
@@ -66,14 +66,14 @@ BEGIN
 		Wy3 => Wy3
    );
 
-A3 <= '0';--, '1' after 10ns;
-A2 <= '0', '1' after 100ns;
-A1 <= '1', '0' after 100ns;
-A0 <= '1', '0' after 100ns;
+A3 <= '0',                  '1' after 200ns;--, '1' after 10ns;
+A2 <= '0', '1' after 100ns, '0' after 200ns;
+A1 <= '1', '0' after 100ns, '1' after 200ns;
+A0 <= '1', '0' after 100ns, '0' after 200ns;
 
-B3 <= '0';--, '1' after 10ns;
-B2 <= '0';--, '1' after 210ns;
-B1 <= '1';
-B0 <= '1';
+B3 <= '0',                  '0' after 200ns;
+B2 <= '0',                  '0' after 200ns;
+B1 <= '1',                  '0' after 200ns;
+B0 <= '1',                  '0' after 200ns;
 
 END;

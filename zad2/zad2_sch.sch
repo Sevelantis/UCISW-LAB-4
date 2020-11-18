@@ -8,8 +8,8 @@
     <netlist>
         <signal name="A0" />
         <signal name="A1" />
+        <signal name="A2" />
         <signal name="A3" />
-        <signal name="A4" />
         <signal name="B0" />
         <signal name="B1" />
         <signal name="B2" />
@@ -28,8 +28,8 @@
         <signal name="Wy3" />
         <port polarity="Input" name="A0" />
         <port polarity="Input" name="A1" />
+        <port polarity="Input" name="A2" />
         <port polarity="Input" name="A3" />
-        <port polarity="Input" name="A4" />
         <port polarity="Input" name="B0" />
         <port polarity="Input" name="B1" />
         <port polarity="Input" name="B2" />
@@ -111,8 +111,8 @@
         <block symbolname="adsu4" name="XLXI_1">
             <blockpin signalname="A0" name="A0" />
             <blockpin signalname="A1" name="A1" />
-            <blockpin signalname="A3" name="A2" />
-            <blockpin signalname="A4" name="A3" />
+            <blockpin signalname="A2" name="A2" />
+            <blockpin signalname="A3" name="A3" />
             <blockpin name="ADD" />
             <blockpin signalname="B0" name="B0" />
             <blockpin signalname="B1" name="B1" />
@@ -168,10 +168,10 @@
         <branch name="A1">
             <wire x2="896" y1="1024" y2="1024" x1="480" />
         </branch>
-        <branch name="A3">
+        <branch name="A2">
             <wire x2="896" y1="1088" y2="1088" x1="480" />
         </branch>
-        <branch name="A4">
+        <branch name="A3">
             <wire x2="896" y1="1152" y2="1152" x1="480" />
         </branch>
         <branch name="B0">
@@ -188,8 +188,8 @@
         </branch>
         <iomarker fontsize="28" x="480" y="960" name="A0" orien="R180" />
         <iomarker fontsize="28" x="480" y="1024" name="A1" orien="R180" />
-        <iomarker fontsize="28" x="480" y="1088" name="A3" orien="R180" />
-        <iomarker fontsize="28" x="480" y="1152" name="A4" orien="R180" />
+        <iomarker fontsize="28" x="480" y="1088" name="A2" orien="R180" />
+        <iomarker fontsize="28" x="480" y="1152" name="A3" orien="R180" />
         <iomarker fontsize="28" x="480" y="1280" name="B0" orien="R180" />
         <iomarker fontsize="28" x="480" y="1344" name="B1" orien="R180" />
         <iomarker fontsize="28" x="480" y="1408" name="B2" orien="R180" />
