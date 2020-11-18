@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/sfran/Documents/Repo/UCISW-LAB-4/zad2_v2/zad2_zad2_sch_tb_isim_beh.exe" -prj "C:/Users/sfran/Documents/Repo/UCISW-LAB-4/zad2_v2/zad2_zad2_sch_tb_beh.prj" "work.zad2_zad2_sch_tb" 
